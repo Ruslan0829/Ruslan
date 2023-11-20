@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html,
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    align-items: center;
+}
+
+.logo {}
+
+.link {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.link:hover {
+    border-bottom: 1px solid #00B2A0;
+}
+
+.wawe {
+    background-image: url(./wawe-new.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    margin: 300px auto;
+    width: max-content;
+    text-align: center;
+}
+
+.box-text {
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
