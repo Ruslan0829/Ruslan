@@ -1,0 +1,33 @@
+.card {
+    
+    height: 200px;
+    border: 1px solid red;
+    background-color: aqua;
+    min-width: 500px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+h1{font-size: 100px;}
+
+@media (max-width:1054px) {
+    .box{
+        flex-direction: column;
+    }
+    .card{background-color: gold;}
+
+    h1{font-size: 60px;}
+}
+
+
+@media (max-width:480px) {
+    h1{font-size: 30px;}
+
+.card{min-width: 100px;
+width: 100px;
+}
+
+}
