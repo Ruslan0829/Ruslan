@@ -67,6 +67,7 @@ nav {
     height: 900px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center ;
     text-align: center;
 
 }
@@ -128,3 +129,20 @@ h2{
     font-size: 20px;
     font-family: fantasy;
 }
+
+
+
+
+@media (max-width: 900px) {
+    .nav-link {
+        display: none;
+    }
+    .hero div {
+        padding-left: 0px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+}
+
+
