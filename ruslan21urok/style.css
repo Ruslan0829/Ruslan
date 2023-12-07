@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.text {
+  padding: 50px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+  background-color: antiquewhite;
+  position: sticky;
+  top: 0;
+  box-shadow: 12px 10px 8px 0px rgba(105, 62, 105, 0.87);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+a:focus {
+  color: red;
+  text-decoration: underline;
+}
+
+.body, html {
+  scroll-behavior: smooth;
+  font-family: cursive;
+}
+
+h1 {
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    nav{
+        flex-wrap: wrap;
+    }
+    
+}
