@@ -1,5 +1,7 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    background: rgb(121,9,118);
+background: linear-gradient(90deg, rgba(121,9,118,1) 3%, rgba(95,130,79,1) 18%, rgba(172,173,72,1) 41%, rgba(190,37,200,1) 70%, rgba(0,212,255,1) 100%);
 }
 
 .container {
@@ -115,6 +117,21 @@ nav {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     display: flex;
     align-items: center;
     gap: 10px;
@@ -131,6 +148,39 @@ h3 {
     font-weight: 500;
     line-height: 28px; /* 140% */
 }
+
+
+.pp{
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(0% 15%, 47% 23%, 52% 0, 86% 37%, 85% 15%, 100% 29%, 100% 66%, 68% 66%, 94% 100%, 49% 73%, 1% 92%, 58% 41%);
+    background-image: url(./3F.webp);
+    margin: 0 auto;
+    transition: all 2s linear ;
+    box-shadow: 4px 4px 8px 17px rgba(255, 255, 255, 0.2);
+}
+
+.ricr{
+    
+    text-align: center;
+    margin-top: 60px;
+    font-size: x-large;
+}
+
+.pp:hover{
+    transform: rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:1000px) {
