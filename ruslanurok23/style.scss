@@ -130,3 +130,42 @@ h3 {
     font-weight: 500;
     line-height: 28px; /* 140% */
 }
+
+
+@media (max-width:1000px) {
+    .cards{ 
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+}
+
+@media (max-width:775px) {
+    .icon{
+        display: none;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media (max-width:725px) {
+    .menu{
+        display: none;
+    }
+}
+
+
+@media (max-width:442px) {
+    .search{
+        display: none;
+    }
+    
+}
+
+@media (max-width:320px) {
+   .cards{
+    grid-template-columns: 1fr;
+   }
+    
+}
