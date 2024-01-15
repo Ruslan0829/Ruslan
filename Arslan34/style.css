@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Prompt', sans-serif;
+}
+.hero {
+}
+.hero__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+.hero__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+.hero__box {
+    max-width: 400px;
+    border: 1px solid black;
+    padding: 30px;
+    transition: all 1s;
+    box-shadow: 1px 1px 10px 10px black;
+}
+.hero__box:hover{
+    background-color: black;
+    color: white;
+
+    box-shadow: 1px 1px 10px 10px gold;
+}
+.hero__name {
+}
+.hero__text {
+    padding: 20px 0;
+}
+.hero__btn {
+    padding: 15px 30px;
+    color: black;
+    background-color: gold;
+    width: 100px;
+    transition: all 1s;
+    border-radius: 15px;
+
+}
+.hero__btn:hover{
+    background-color: blue;
+    color: white;
+    width: 200px;
+}
+@media (max-width:650px) {
+
+    
+}
+
+
+@media (max-width:650px) {
+    .hero__wrapper{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:450px) {
+    .hero__box{
+        background-color: gold;
+        color: black;
+    }
+    .hero__btn{
+        
+    }
+}
