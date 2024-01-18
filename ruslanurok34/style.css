@@ -1,0 +1,175 @@
+body{
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    background: rgb(121,9,118);
+background: linear-gradient(90deg, rgba(121,9,118,1) 3%, rgba(95,130,79,1) 18%, rgba(226,228,52,1) 35%, rgba(214,57,57,1) 56%, rgba(190,37,200,1) 70%, rgba(0,212,255,1) 100%);
+}
+
+
+
+
+/* .card {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+}
+.card0{
+transition: all 1s linear;
+}
+.card0:hover{
+    background-color: brown;
+}
+
+.card1{
+    border: 1px dashed aqua;
+    animation: slide 5s linear infinite;
+    
+}
+
+
+
+.card2{
+    border: 6px solid plum;
+    transition: all 1s linear;
+}
+
+.card2:hover{
+    background-color: rgb(255, 229, 34);
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: 120px;
+} */
+
+
+
+
+@keyframes slide {
+    0%{
+        background-color: rgb(224, 27, 27);
+    }
+
+    50%{
+        background-color: chartreuse;
+    }
+    
+
+    100%{
+        background-color: rgb(116, 116, 116);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero {
+}
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.hero__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.hero__img {
+    object-fit: cover;
+    max-width: 400px;
+    box-shadow: 54px 44px 38px 6px rgba(34, 60, 80, 1);
+    animation: scale 3s linear infinite;
+}
+.hero__card {
+    width: 200px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(220, 217, 217);
+    box-shadow: 54px 44px 38px 6px rgba(34, 60, 80, 1);
+}
+.hero__card-title {
+    text-align: center;
+    color: brown;
+}
+.hero__card-text {
+    text-align: center;
+    max-width: 150px;
+    width: 100%;
+    margin-left: 20px;
+}
+.hero__card-btn {
+    
+    padding: 15px;
+    border: 5px slategray ;
+    border-radius: 29px;
+    margin-left:20px ;
+
+}
+.btn {
+    background-color: gold;
+}
+
+
+
+.bezimyanniy{
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+
+@media (max-width:900px) {
+    .wrap{
+        flex-direction: column;
+    }
+}
+
+@keyframes scale {
+    0%{
+        height:  300px;
+    }
+    50%{
+        height: 350px;
+    }
+    100%{
+        height: 300px;
+    }
+    
+}
+
+
+.skam__img{
+    width: 100%;
+}
+
+@media (max-width:900px) {
+    .hero__wrap{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:450px) {
+    .hero__img{
+        max-width: 300px;
+        max-height: 200px;
+    }
+}
