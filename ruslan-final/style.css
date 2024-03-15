@@ -575,7 +575,7 @@ nav {
 
 
 
-@media (max-width: 425px) {
+@media (max-width:425px) {
   .hero__wrap {
     display: flex;
     flex-direction: column;
