@@ -207,6 +207,10 @@ nav {
   padding: 0 0 100px;
 }
 
+
+
+
+
 .hero__wrap {
   display: flex;
   align-items: center;
@@ -243,6 +247,8 @@ nav {
 
 .btn2 {
   background-color: rgb(247, 247, 247);
+  color: #000;
+  text-decoration: none;
 }
 
 .plus__text {
@@ -259,8 +265,7 @@ nav {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.container {
-}
+
 .plus__title {
   text-align: center;
   font-size: 46px;
@@ -284,9 +289,8 @@ nav {
   box-shadow: 14px 14px 28px #959595, -14px -14px 28px #ffffff;
 }
 
-.plus__card:hover {
-  transform: scale(1.3);
-  
+.plus__card:hover{
+  transform: scale(1.3px);
 }
 
 .plus__card-img {
@@ -312,8 +316,7 @@ nav {
   padding-top: 120px;
   padding-bottom: 50px;
 }
-.container {
-}
+
 
 .team__anya {
   max-width: 300px;
@@ -385,8 +388,7 @@ nav {
 .loc {
   padding-bottom: 80px;
 }
-.container {
-}
+
 .loc__wrap {
   display: flex;
   align-items: center;
@@ -420,8 +422,7 @@ nav {
 .fon {
   padding-top: 100px;
 }
-.container {
-}
+
 .fon__card {
   max-width: 60%;
   width: 100%;
@@ -445,8 +446,7 @@ nav {
   border-radius: 10px;
 }
 
-.fon__back13 {
-}
+
 
 .fon__back-ig {
   width: 25px;
@@ -523,15 +523,27 @@ nav {
 }
 
 
+.loc__btn1{
+  padding: 20px;
+  background-color: gold;
+  border: 2px solid black;
+  max-width: 120px;
+  width: 100%;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
 
+}
 
 .footer {
   padding-top: 40px;
   background-color: #75082a;
   padding-bottom: 40px;
 }
-.container {
-}
+
 .foot__author {
   text-align: center;
   color: darkorange;
@@ -555,6 +567,14 @@ nav {
 
 
 
+.con__title{
+  text-align: center;
+  padding: 30px 0;
+}
+.con__text{
+  text-align: center;
+  padding: 4px 0;
+}
 
 
 
@@ -564,30 +584,22 @@ nav {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:425px) {
-  .hero__wrap {
+@media (max-width:710px) {
+  .hero__wrap{
     display: flex;
     flex-direction: column;
   }
-
-  .hero__h1 {
+  
+  .hero__h1{
     text-align: center;
   }
 
-  .hero__btn1 {
-    margin-left: 40px;
-  }
+ .hero__btn-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ }
 
   .plus__wrap {
     flex-direction: column;
@@ -596,6 +608,8 @@ nav {
   .loc__wrap {
     flex-direction: column;
   }
+
+  .loc
 
   .loc__text {
     max-width: 400px;
@@ -622,9 +636,20 @@ nav {
 .price__wrap{
   flex-direction: column;
 }
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 325px) {
   .hero__btn1 {
