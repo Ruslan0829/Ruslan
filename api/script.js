@@ -1,4 +1,12 @@
 const wrapper = document.querySelector('.wrapper')
+
+
+
+const loader = document.querySelector('.loader')
+
+
+
+
 const func = async () => {
     const response = await fetch('https://dummyjson.com/users')
 
@@ -22,3 +30,12 @@ const func = async () => {
 }
 
 func()
+
+
+
+
+
+
+setTimeout(() => {
+    loader.remove()
+}, 5000);
