@@ -1,0 +1,189 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 400px;
+  padding-bottom: 370px;
+}
+
+
+
+
+h2{
+ padding-top: 60px;
+ text-align: center;
+ margin-bottom: 100px;
+ text-align: center;
+ font-size: large;
+ font-style: italic;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(210, 68, 97);
+ font-weight: 900;  
+ 
+
+}
+
+.wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+
+p{
+  text-align: center;
+  -webkit-text-stroke: rgb(210, 68, 97) 1px;
+  
+  font-weight: 900;
+ font-size: 70px;
+}
+
+body{
+  display: block;
+}
+
+
+.contacts_img{
+  width: 100px;
+
+}
+
+
+.header{
+  
+ 
+}
+
+
+.img2{
+  width: 200px;
+  transform: rotate(25deg);
+
+}
+
+
+.wrao2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+
+
+.img1 {
+ transform: rotate(-25deg);
+  
+  z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.simple-rating{
+  position: relative;
+  font-size: 40px;
+  display: inline-block;
+}
+
+
+.simple-rating::before{
+  content: " ★ ★ ★ ★ ★";
+  display: block;
+}
+
+.simple-rating__items{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   display: flex;
+   flex-direction: row-reverse;
+   overflow: hidden;
+}
+
+.simple-rating__item{
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.simple-rating__label{
+   flex: 0 0 20%;
+   height: 100%;
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+
+
+.simple-rating__label::before{
+  content: "   ★   ";
+  display: block;
+  transition: color 0.3s ease 0s;
+}
+
+
+.simple-rating__item:checked,
+.simple-rating__item:checked ~ .simple-rating__label{
+  color: #ffd300;
+}
+
+.simple-rating__label:hover,
+.simple-rating__label:hover ~ .simple-rating__label,
+.simple-rating__label:checked ~ .simple-rating__label:hover {
+  color: #f2cf22;
+}
+
+
+
+
+
+@media (max-width: 575px) {
+  Form.u-border-4.u-border-grey-15.u-radius.u-search.u-search-right.u-search-1{
+    display: none;
+  }
+
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 217px;
+    margin-left: 0;
+    margin-right: 0;
+    opacity: 0;
+  }
+
+
+  .u-logo-image-1{
+    display: none;
+    opacity: 0;
+
+    
+    
+  }
+}
